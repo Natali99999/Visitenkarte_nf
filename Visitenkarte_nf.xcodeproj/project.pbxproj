@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11D2D4827AA6E2300C82AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D4727AA6E2300C82AFD /* AppDelegate.swift */; };
+		F11D2D4A27AA6E2300C82AFD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F11D2D4927AA6E2300C82AFD /* art.scnassets */; };
+		F11D2D4C27AA6E2300C82AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D4B27AA6E2300C82AFD /* ViewController.swift */; };
+		F11D2D4F27AA6E2300C82AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11D2D4D27AA6E2300C82AFD /* Main.storyboard */; };
+		F11D2D5127AA6E2400C82AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11D2D5027AA6E2400C82AFD /* Assets.xcassets */; };
+		F11D2D5427AA6E2400C82AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11D2D5227AA6E2400C82AFD /* LaunchScreen.storyboard */; };
+		F11D2D5E27AA6E2400C82AFD /* Visitenkarte_nfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D5D27AA6E2400C82AFD /* Visitenkarte_nfTests.swift */; };
+		F11D2D6827AA6E2400C82AFD /* Visitenkarte_nfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D6727AA6E2400C82AFD /* Visitenkarte_nfUITests.swift */; };
+		F11D2D6A27AA6E2400C82AFD /* Visitenkarte_nfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D6927AA6E2400C82AFD /* Visitenkarte_nfUITestsLaunchTests.swift */; };
+		F11D2D7727AA84B300C82AFD /* visitenkarte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11D2D7627AA84B300C82AFD /* visitenkarte.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F11D2D5A27AA6E2400C82AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F11D2D3C27AA6E2300C82AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11D2D4327AA6E2300C82AFD;
+			remoteInfo = Visitenkarte_nf;
+		};
+		F11D2D6427AA6E2400C82AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F11D2D3C27AA6E2300C82AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11D2D4327AA6E2300C82AFD;
+			remoteInfo = Visitenkarte_nf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F11D2D4427AA6E2300C82AFD /* Visitenkarte_nf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visitenkarte_nf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11D2D4727AA6E2300C82AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F11D2D4927AA6E2300C82AFD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F11D2D4B27AA6E2300C82AFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F11D2D4E27AA6E2300C82AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F11D2D5027AA6E2400C82AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F11D2D5327AA6E2400C82AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F11D2D5927AA6E2400C82AFD /* Visitenkarte_nfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Visitenkarte_nfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11D2D5D27AA6E2400C82AFD /* Visitenkarte_nfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitenkarte_nfTests.swift; sourceTree = "<group>"; };
+		F11D2D6327AA6E2400C82AFD /* Visitenkarte_nfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Visitenkarte_nfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11D2D6727AA6E2400C82AFD /* Visitenkarte_nfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitenkarte_nfUITests.swift; sourceTree = "<group>"; };
+		F11D2D6927AA6E2400C82AFD /* Visitenkarte_nfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitenkarte_nfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F11D2D7627AA84B300C82AFD /* visitenkarte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = visitenkarte.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11D2D4127AA6E2300C82AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11D2D5627AA6E2400C82AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11D2D6027AA6E2400C82AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11D2D3B27AA6E2300C82AFD = {
+			isa = PBXGroup;
+			children = (
+				F11D2D4627AA6E2300C82AFD /* Visitenkarte_nf */,
+				F11D2D5C27AA6E2400C82AFD /* Visitenkarte_nfTests */,
+				F11D2D6627AA6E2400C82AFD /* Visitenkarte_nfUITests */,
+				F11D2D4527AA6E2300C82AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11D2D4527AA6E2300C82AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11D2D4427AA6E2300C82AFD /* Visitenkarte_nf.app */,
+				F11D2D5927AA6E2400C82AFD /* Visitenkarte_nfTests.xctest */,
+				F11D2D6327AA6E2400C82AFD /* Visitenkarte_nfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11D2D4627AA6E2300C82AFD /* Visitenkarte_nf */ = {
+			isa = PBXGroup;
+			children = (
+				F11D2D4727AA6E2300C82AFD /* AppDelegate.swift */,
+				F11D2D7627AA84B300C82AFD /* visitenkarte.jpg */,
+				F11D2D4927AA6E2300C82AFD /* art.scnassets */,
+				F11D2D4B27AA6E2300C82AFD /* ViewController.swift */,
+				F11D2D4D27AA6E2300C82AFD /* Main.storyboard */,
+				F11D2D5027AA6E2400C82AFD /* Assets.xcassets */,
+				F11D2D5227AA6E2400C82AFD /* LaunchScreen.storyboard */,
+			);
+			path = Visitenkarte_nf;
+			sourceTree = "<group>";
+		};
+		F11D2D5C27AA6E2400C82AFD /* Visitenkarte_nfTests */ = {
+			isa = PBXGroup;
+			children = (
+				F11D2D5D27AA6E2400C82AFD /* Visitenkarte_nfTests.swift */,
+			);
+			path = Visitenkarte_nfTests;
+			sourceTree = "<group>";
+		};
+		F11D2D6627AA6E2400C82AFD /* Visitenkarte_nfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F11D2D6727AA6E2400C82AFD /* Visitenkarte_nfUITests.swift */,
+				F11D2D6927AA6E2400C82AFD /* Visitenkarte_nfUITestsLaunchTests.swift */,
+			);
+			path = Visitenkarte_nfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11D2D4327AA6E2300C82AFD /* Visitenkarte_nf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11D2D6D27AA6E2400C82AFD /* Build configuration list for PBXNativeTarget "Visitenkarte_nf" */;
+			buildPhases = (
+				F11D2D4027AA6E2300C82AFD /* Sources */,
+				F11D2D4127AA6E2300C82AFD /* Frameworks */,
+				F11D2D4227AA6E2300C82AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Visitenkarte_nf;
+			productName = Visitenkarte_nf;
+			productReference = F11D2D4427AA6E2300C82AFD /* Visitenkarte_nf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F11D2D5827AA6E2400C82AFD /* Visitenkarte_nfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11D2D7027AA6E2400C82AFD /* Build configuration list for PBXNativeTarget "Visitenkarte_nfTests" */;
+			buildPhases = (
+				F11D2D5527AA6E2400C82AFD /* Sources */,
+				F11D2D5627AA6E2400C82AFD /* Frameworks */,
+				F11D2D5727AA6E2400C82AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11D2D5B27AA6E2400C82AFD /* PBXTargetDependency */,
+			);
+			name = Visitenkarte_nfTests;
+			productName = Visitenkarte_nfTests;
+			productReference = F11D2D5927AA6E2400C82AFD /* Visitenkarte_nfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F11D2D6227AA6E2400C82AFD /* Visitenkarte_nfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11D2D7327AA6E2400C82AFD /* Build configuration list for PBXNativeTarget "Visitenkarte_nfUITests" */;
+			buildPhases = (
+				F11D2D5F27AA6E2400C82AFD /* Sources */,
+				F11D2D6027AA6E2400C82AFD /* Frameworks */,
+				F11D2D6127AA6E2400C82AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11D2D6527AA6E2400C82AFD /* PBXTargetDependency */,
+			);
+			name = Visitenkarte_nfUITests;
+			productName = Visitenkarte_nfUITests;
+			productReference = F11D2D6327AA6E2400C82AFD /* Visitenkarte_nfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11D2D3C27AA6E2300C82AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F11D2D4327AA6E2300C82AFD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F11D2D5827AA6E2400C82AFD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F11D2D4327AA6E2300C82AFD;
+					};
+					F11D2D6227AA6E2400C82AFD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F11D2D4327AA6E2300C82AFD;
+					};
+				};
+			};
+			buildConfigurationList = F11D2D3F27AA6E2300C82AFD /* Build configuration list for PBXProject "Visitenkarte_nf" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F11D2D3B27AA6E2300C82AFD;
+			productRefGroup = F11D2D4527AA6E2300C82AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11D2D4327AA6E2300C82AFD /* Visitenkarte_nf */,
+				F11D2D5827AA6E2400C82AFD /* Visitenkarte_nfTests */,
+				F11D2D6227AA6E2400C82AFD /* Visitenkarte_nfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11D2D4227AA6E2300C82AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11D2D4A27AA6E2300C82AFD /* art.scnassets in Resources */,
+				F11D2D5427AA6E2400C82AFD /* LaunchScreen.storyboard in Resources */,
+				F11D2D5127AA6E2400C82AFD /* Assets.xcassets in Resources */,
+				F11D2D4F27AA6E2300C82AFD /* Main.storyboard in Resources */,
+				F11D2D7727AA84B300C82AFD /* visitenkarte.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11D2D5727AA6E2400C82AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11D2D6127AA6E2400C82AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11D2D4027AA6E2300C82AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11D2D4C27AA6E2300C82AFD /* ViewController.swift in Sources */,
+				F11D2D4827AA6E2300C82AFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11D2D5527AA6E2400C82AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11D2D5E27AA6E2400C82AFD /* Visitenkarte_nfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11D2D5F27AA6E2400C82AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11D2D6827AA6E2400C82AFD /* Visitenkarte_nfUITests.swift in Sources */,
+				F11D2D6A27AA6E2400C82AFD /* Visitenkarte_nfUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F11D2D5B27AA6E2400C82AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11D2D4327AA6E2300C82AFD /* Visitenkarte_nf */;
+			targetProxy = F11D2D5A27AA6E2400C82AFD /* PBXContainerItemProxy */;
+		};
+		F11D2D6527AA6E2400C82AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11D2D4327AA6E2300C82AFD /* Visitenkarte_nf */;
+			targetProxy = F11D2D6427AA6E2400C82AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F11D2D4D27AA6E2300C82AFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11D2D4E27AA6E2300C82AFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F11D2D5227AA6E2400C82AFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11D2D5327AA6E2400C82AFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F11D2D6B27AA6E2400C82AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F11D2D6C27AA6E2400C82AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11D2D6E27AA6E2400C82AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B222R6JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nf.Visitenkarte-nf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F11D2D6F27AA6E2400C82AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B222R6JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nf.Visitenkarte-nf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F11D2D7127AA6E2400C82AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B222R6JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nf.Visitenkarte-nfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visitenkarte_nf.app/Visitenkarte_nf";
+			};
+			name = Debug;
+		};
+		F11D2D7227AA6E2400C82AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B222R6JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nf.Visitenkarte-nfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visitenkarte_nf.app/Visitenkarte_nf";
+			};
+			name = Release;
+		};
+		F11D2D7427AA6E2400C82AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B222R6JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nf.Visitenkarte-nfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Visitenkarte_nf;
+			};
+			name = Debug;
+		};
+		F11D2D7527AA6E2400C82AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B222R6JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nf.Visitenkarte-nfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Visitenkarte_nf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11D2D3F27AA6E2300C82AFD /* Build configuration list for PBXProject "Visitenkarte_nf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11D2D6B27AA6E2400C82AFD /* Debug */,
+				F11D2D6C27AA6E2400C82AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11D2D6D27AA6E2400C82AFD /* Build configuration list for PBXNativeTarget "Visitenkarte_nf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11D2D6E27AA6E2400C82AFD /* Debug */,
+				F11D2D6F27AA6E2400C82AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11D2D7027AA6E2400C82AFD /* Build configuration list for PBXNativeTarget "Visitenkarte_nfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11D2D7127AA6E2400C82AFD /* Debug */,
+				F11D2D7227AA6E2400C82AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11D2D7327AA6E2400C82AFD /* Build configuration list for PBXNativeTarget "Visitenkarte_nfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11D2D7427AA6E2400C82AFD /* Debug */,
+				F11D2D7527AA6E2400C82AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F11D2D3C27AA6E2300C82AFD /* Project object */;
+}
