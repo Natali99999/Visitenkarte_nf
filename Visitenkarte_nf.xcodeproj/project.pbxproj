@@ -17,6 +17,7 @@
 		F11D2D6827AA6E2400C82AFD /* Visitenkarte_nfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D6727AA6E2400C82AFD /* Visitenkarte_nfUITests.swift */; };
 		F11D2D6A27AA6E2400C82AFD /* Visitenkarte_nfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D6927AA6E2400C82AFD /* Visitenkarte_nfUITestsLaunchTests.swift */; };
 		F11D2D7727AA84B300C82AFD /* visitenkarte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11D2D7627AA84B300C82AFD /* visitenkarte.jpg */; };
+		F127FAF927AD7AA300EEFACA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127FAF827AD7AA300EEFACA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		F11D2D6727AA6E2400C82AFD /* Visitenkarte_nfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitenkarte_nfUITests.swift; sourceTree = "<group>"; };
 		F11D2D6927AA6E2400C82AFD /* Visitenkarte_nfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitenkarte_nfUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F11D2D7627AA84B300C82AFD /* visitenkarte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = visitenkarte.jpg; sourceTree = "<group>"; };
+		F127FAF827AD7AA300EEFACA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				F11D2D4D27AA6E2300C82AFD /* Main.storyboard */,
 				F11D2D5027AA6E2400C82AFD /* Assets.xcassets */,
 				F11D2D5227AA6E2400C82AFD /* LaunchScreen.storyboard */,
+				F127FAF827AD7AA300EEFACA /* Constants.swift */,
 			);
 			path = Visitenkarte_nf;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				F11D2D4C27AA6E2300C82AFD /* ViewController.swift in Sources */,
 				F11D2D4827AA6E2300C82AFD /* AppDelegate.swift in Sources */,
+				F127FAF927AD7AA300EEFACA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
